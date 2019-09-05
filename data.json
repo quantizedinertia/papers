@@ -1,0 +1,20 @@
+[
+  {
+    "year": 2010,
+    "author": "self",
+    "title": "Papers on QI",
+    "type": "Theoretical"
+  },
+  {
+    "year": 2012,
+    "author": "this",
+    "title": "QI Paper",
+    "type": "Theoretical"
+  },
+  {
+    "year": 2015,
+    "author": "that",
+    "title": "QI Test",
+    "type": "Experimental"
+  }
+]

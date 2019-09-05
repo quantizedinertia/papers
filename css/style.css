@@ -21,7 +21,7 @@
 * { box-sizing: border-box; }
 
 ::selection {
-  color: #fff;
+  color: #c66;
   background: rgba(0, 0, 0, 0.1);
 }
 

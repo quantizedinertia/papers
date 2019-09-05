@@ -20,7 +20,7 @@
       <h3>Published papers on Quantized Inertia</h3>
     </header>
 
-    <table class="table">
+    <table>
       <thead>
         <tr>
           <th>Year</th>
@@ -30,20 +30,36 @@
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
       </tbody>
-
     </table>
 
     <script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="js/jquery.tablesort.min.js"></script>
     <script>
-      $('table').tablesort()
+      let fetchData = () => {
+        $.getJSON('data.json').done((data) => {
+          renderData(data)
+        }).fail((xhr, status, error) => {
+          console.log("Couldn't fetch the data...")
+        })
+      }
+
+      let renderData = (data) => {
+        let tbody = $("<tbody/>")
+        for (let items of data) {
+          let row = $("<tr/>")
+          for (let item in items) {
+            row.append("<td>" + items[item] + "</td>")
+          }
+          tbody.append(row)
+        }
+        $("table").append(tbody)
+      }
+
+      $(document).ready(() => {
+        fetchData()
+        $('table').tablesort()
+      })
     </script>
   </body>
 
