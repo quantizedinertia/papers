@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="css/style.css">
 
     <meta name="theme-color" content="#fafafa">
+
+    <script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
   </head>
 
   <body>
@@ -33,33 +35,39 @@
       </tbody>
     </table>
 
-    <script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="js/jquery.tablesort.min.js"></script>
-    <script>
-      let fetchData = () => {
-        $.getJSON('data.json').done((data) => {
-          renderData(data)
-        }).fail((xhr, status, error) => {
-          console.log("Couldn't fetch the data...")
-        })
-      }
+    <footer>
+      You're welcome to
+      <a href="https://github.com/quantizedinertia/researches/blob/gh-pages/data.json" rel="noopener noreferrer" title="Link to data.json" target="_blank">extend the list</a>
+      by contributing referrences to published works.
+    </footer>
 
+    <script>
       let renderData = (data) => {
         let tbody = $("<tbody/>")
-        for (let items of data) {
-          let row = $("<tr/>")
-          for (let item in items) {
-            row.append("<td>" + items[item] + "</td>")
-          }
+        for (let d of data) {
+          let year = $("<td/>").append(d.year),
+              type = $("<td/>").append(d.type),
+              title = $("<td/>").append($("<a/>").append(d.title).attr({
+                title: d.title,
+                target: "_blank",
+                rel: "noopener noreferrer",
+                href: d.link
+              })),
+              author = $("<td/>").append(d.author)
+          console.log(title.html())
+          let row = $("<tr/>").append([year, author, title, type])
           tbody.append(row)
         }
         $("table").append(tbody)
       }
 
-      $(document).ready(() => {
-        fetchData()
-        $('table').tablesort()
-      })
+      (() => {
+        $.getJSON('data.json').done((data) => {
+          renderData(data)
+        }).fail((xhr, status, error) => {
+          console.log("Couldn't fetch the data...")
+        })
+      })()
     </script>
   </body>
 

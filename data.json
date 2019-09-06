@@ -1,20 +1,121 @@
 [
   {
+    "year": 2007,
+    "type": "Theoretical",
+    "link": "https://arxiv.org/abs/astro-ph/0612599",
+    "title": "Modelling the Pioneer anomaly as modified inertia.",
+    "author": "McCulloch, M.E."
+  },
+  {
+    "year": 2008,
+    "type": "Theoretical",
+    "link": "https://arxiv.org/abs/0712.3022",
+    "title": "Can the flyby anomalies be explained by a modification of inertia?",
+    "author": "McCulloch, M.E."
+  },
+  {
+    "year": 2008,
+    "type": "Theoretical",
+    "link": "https://arxiv.org/abs/0806.4159",
+    "title": "Modelling the flyby anomalies using a modification of inertia.",
+    "author": "McCulloch, M.E."
+  },
+  {
     "year": 2010,
-    "author": "self",
-    "title": "Papers on QI",
-    "type": "Theoretical"
+    "type": "Theoretical",
+    "link": "https://arxiv.org/abs/1004.3303",
+    "title": "Minimum accelerations from quantised inertia.",
+    "author": "McCulloch, M.E."
+  },
+  {
+    "year": 2011,
+    "type": "Theoretical",
+    "link": "https://arxiv.org/abs/1106.3266",
+    "title": "The Tajmar effect from quantised inertia.",
+    "author": "McCulloch, M.E."
   },
   {
     "year": 2012,
-    "author": "this",
-    "title": "QI Paper",
-    "type": "Theoretical"
+    "type": "Theoretical",
+    "link": "https://arxiv.org/abs/1207.7007",
+    "title": "Testing quantised inertia on galactic scales.",
+    "author": "McCulloch, M.E."
+  },
+  {
+    "year": 2013,
+    "type": "Theoretical",
+    "link": "https://arxiv.org/abs/1302.2775",
+    "title": "Inertia from an asymmetric Casimir effect.",
+    "author": "McCulloch, M.E."
+  },
+  {
+    "year": 2014,
+    "type": "Theoretical",
+    "link": "https://link.springer.com/article/10.1007%2Fs10509-013-1686-9",
+    "title": "Gravity from the uncertainty principle.",
+    "author": "McCulloch, M.E."
+  },
+  {
+    "year": 2014,
+    "type": "Theoretical",
+    "link": "http://www.mdpi.com/2075-4434/2/1/81",
+    "title": "A toy cosmology using a Hubble-scale Casimir effect.",
+    "author": "McCulloch, M.E."
   },
   {
     "year": 2015,
-    "author": "that",
-    "title": "QI Test",
-    "type": "Experimental"
+    "type": "Theoretical",
+    "link": "https://arxiv.org/abs/1604.03449",
+    "title": "Testing quantised inertia on the emdrive.",
+    "author": "McCulloch, M.E."
+  },
+  {
+    "year": 2016,
+    "type": "Theoretical",
+    "link": "http://www.worldscientific.com/doi/abs/10.1142/S0217732316501078",
+    "title": "Inertia from Unruh temperatures.",
+    "author": "Gine, J. and McCulloch, M.E."
+  },
+  {
+    "year": 2016,
+    "type": "Theoretical",
+    "link": "https://arxiv.org/abs/1610.06787",
+    "title": "Quantised inertia from relativity & the uncertainty principle.",
+    "author": "McCulloch, M.E."
+  },
+  {
+    "year": 2017,
+    "type": "Theoretical",
+    "link": "http://rdcu.be/px8h",
+    "title": "Low acceleration dwarf galaxies as tests of quantised inertia.",
+    "author": "McCulloch, M.E."
+  },
+  {
+    "year": 2017,
+    "type": "Theoretical",
+    "link": "http://www.isaacpub.org/images/PaperPDF/AdAp_100063_2017021413572668843.pdf",
+    "title": "The universe as a resonant cavity: a small step towards unification of MoND and MiHsC.",
+    "author": "Pickering, K."
+  },
+  {
+    "year": 2017,
+    "type": "Theoretical",
+    "link": "http://iopscience.iop.org/article/10.1209/0295-5075/118/34003",
+    "title": "Testing quantised inertia on emdrives with dielectrics.",
+    "author": "McCulloch, M.E."
+  },
+  {
+    "year": 2017,
+    "type": "Theoretical",
+    "link": "https://link.springer.com/article/10.1007/s10509-017-3128-6",
+    "title": "Galaxy rotations from quantised inertia and visible matter only.",
+    "author": "McCulloch, M.E."
+  },
+  {
+    "year": 2017,
+    "type": "Theoretical",
+    "link": "http://www.worldscientific.com/doi/abs/10.1142/S0217732317501486",
+    "title": "Modified inertial mass from information loss.",
+    "author": "McCulloch, M.E. and Gine, J."
   }
 ]
