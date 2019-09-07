@@ -19,7 +19,7 @@
   <body>
     <header>
       <h1>Researches</h1>
-      <h3>Published papers on Quantized Inertia</h3>
+      <h3>Published papers on <a href="https://quantizedinertia.com/" title="Homepage">Quantized Inertia</a></h3>
     </header>
 
     <table>
@@ -28,7 +28,7 @@
           <th>Year</th>
           <th>Author</th>
           <th>Title</th>
-          <th>Type</th>
+          <!-- <th>Type</th> -->
         </tr>
       </thead>
       <tbody>
@@ -38,7 +38,7 @@
     <footer>
       You're welcome to
       <a href="https://github.com/quantizedinertia/researches/blob/gh-pages/data.json" rel="noopener noreferrer" title="Link to data.json" target="_blank">extend the list</a>
-      by contributing referrences to published works.
+      by contributing references to published works.
     </footer>
 
     <script>
@@ -46,7 +46,7 @@
         let tbody = $("<tbody/>")
         for (let d of data) {
           let year = $("<td/>").append(d.year),
-              type = $("<td/>").append(d.type),
+              // type = $("<td/>").append(d.type),
               title = $("<td/>").append($("<a/>").append(d.title).attr({
                 title: d.title,
                 target: "_blank",
@@ -55,7 +55,7 @@
               })),
               author = $("<td/>").append(d.author)
           console.log(title.html())
-          let row = $("<tr/>").append([year, author, title, type])
+          let row = $("<tr/>").append([year, author, title])
           tbody.append(row)
         }
         $("table").append(tbody)
