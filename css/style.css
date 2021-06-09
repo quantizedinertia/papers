@@ -47,6 +47,13 @@ a:visited { color: #369; }
 header { margin: 4rem auto; }
 header h1 { font-family: "Roboto", sans-serif; }
 
+section {
+  width: 60rem;
+  margin: 0 auto 4rem;
+  text-align: left;
+  line-height: 1.25;
+}
+
 th, td {
   padding: 0.5rem 1rem;
   text-align: left;
